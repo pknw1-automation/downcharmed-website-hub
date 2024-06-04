@@ -1,0 +1,34 @@
+body {
+  	background-image: url("https://downcharmed.online/assets/images/screenshot-2024-03-31-at-03.07.45-1.png");
+
+}
+
+.button {
+	background-color: red;
+	color: white;
+	margin: 20px;
+}
+
+.link {
+        background-color: red;
+	color: white;
+	padding: 5px;
+	margin: 10px;
+}
+
+.w3-container {
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.w3-modal-content {
+	width: 30%;
+}
+
+.logo {
+	margin: 50px;
+}

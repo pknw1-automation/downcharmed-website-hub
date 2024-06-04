@@ -1,0 +1,20 @@
+<div>
+    <form method="POST" action="/register"> 
+        {{ form.csrf_token }} 
+        {{ form.username(class_="box") }} 
+        <br> 
+        <br> 
+        {{ form.contact(class_="box") }} 
+        <br> 
+	Monthly Updates {{ form.receive_updates() }}
+	Gig Alerts {{ form.receive_alerts() }}
+	<br>
+	<span class="" ><button type="submit" class="button">Register</span></button> 
+	<br>
+	<button onclick="window.location.href = '/'" class="button">Home</button>
+	</span>
+
+    </form> 
+
+</div>
+
